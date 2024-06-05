@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-clash-display: "Clash Display";
+    --font-plus-jakarta-sans: "Plus Jakarta Sans";
+    --font-dm-sans: "DM Sans";
+    --font-nunito-sans: "Nunito Sans";
+  
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-13xl: 32px;
+    --font-size-8xs-2: 4.2px;
+    --font-size-9xl: 28px;
+    --font-size-lg: 18px;
+    --font-size-29xl: 48px;
+    --font-size-xl: 20px;
+    --font-size-xs-8: 11.8px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-tomato: #ff5555;
+  
+    /* Border radiuses */
+    --br-9xs: 4px;
+    --br-5xs: 8px;
+  
+    /* Effects */
+    --s: -13px 13px 104.09px rgba(161, 161, 161, 0.1);
+  }
+  
