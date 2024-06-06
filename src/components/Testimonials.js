@@ -12,8 +12,8 @@ const Testimonials = () => {
   return (
     <div className='flex flex-col  gap-10 mt-36 w-[80%] mx-auto'>
       <div className='flex flex-col items-center justify-center gap-4'>
-      <p className='uppercase '>testimonial</p>
-      <p className='capitalize '>what our users say about us?</p>
+      <p className='uppercase font-bold'>testimonial</p>
+      <p className='capitalize font-extrabold text-3xl'>what our users say about us?</p>
       </div>
       <div className='md:flex items-center'>
         <div  className='md:w-[60%] relative'>
